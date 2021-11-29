@@ -1,13 +1,3 @@
-<?php
-if(isset($_POST["sub"])) {
-	$to = "$_POST[mail]";
-	$from = "sorianoyvert26@gmail.com";
-	$message = "$_POST[name]"." Your Comment and Suggestion are now sending to the ADMIN for more info kindly visit the page or Contact us from one of the Contact Information Stated Thank you! ";
-	$headers = "From: $from\n";
-	mail($to, '', $message, $headers);
-}
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
